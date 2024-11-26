@@ -1,0 +1,113 @@
+/* --------------------------------------
+    |   footer section
+    |------------------------------------ */
+.site-footer {
+    background-color: #5f6061;
+    color: #fff;
+    line-height: 24px;
+    padding-top: 45px;
+}
+
+.site-footer p {
+    text-align: justify;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.site-footer address {
+    font-size: small;
+}
+
+.site-footer h5 {
+    text-align: center;
+    color: #f37820;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-footer h6 {
+    margin-left: 60px;
+    color: #f37820;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --------------------------------------
+    |   footer section QUICK LINKS
+    |------------------------------------ */
+.footer-links li {
+    display: block
+}
+
+.footer-links a {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    color: #7375f1;
+}
+
+/* --------------------------------------
+    |   footer section social-icons
+    |------------------------------------ */
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 4px
+}
+
+.social-icons .facebook,
+.twitter,
+.whatsapp,
+.linkedin {
+    padding: 11px;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.social-icons .facebook:hover {
+    background-color: #3b5998
+}
+
+.social-icons a.twitter:hover {
+    background-color: #00aced
+}
+
+.social-icons a.linkedin:hover {
+    background-color: #007bb6
+}
+
+.social-icons a.whatsapp:hover {
+    background-color: #42c068
+}
+
+/* --------------------------------------
+    |   low footer section
+    |------------------------------------ */
+.bettle {
+    font-size: 12px;
+    background-color: #dfe5eb;
+    color: #080808;
+    padding-top: 10px;
+}
+
+.bettle a {
+    font-size: 11px;
+    text-align: center;
+    margin: 20px 0 10px;
+    color: orangered;
+    text-decoration: none;
+    font-weight: 300;
+    font-weight: bold;
+}
+
+.bettle a:hover {
+    text-decoration: underline;
+    color: #5772ca;
+}

@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -------------------------------------------
+    |   Form
+    |----------------------------------------- */
+.wrapper {
+    width: 525px;
+    background: rgb(22, 21, 21);
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 30px 30px;
+    text-align: center;
+}
+
+/* -------------------------------------------
+    |   Form header
+    |----------------------------------------- */
+.wrapper h2 {
+    font-size: 35px;
+}
+
+/* -------------------------------------------
+    |   Form input field
+    |----------------------------------------- */
+.wrapper .input-box,
+.wrapper .input-file-box {
+    width: 100%;
+    height: 50px;
+    margin: 15px 0;
+}
+
+.input-box input,
+textarea {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255);
+    border-radius: 50px;
+    font-size: 18px;
+    color: #fff;
+    padding: 20px;
+}
+
+.input-box input::placeholder,
+textarea::placeholder {
+    color: #fff;
+}
+
+/* -------------------------------------------
+    |   Date icon
+    |----------------------------------------- */
+.input-box input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    font-size: 25px;
+}
+
+/* -------------------------------------------
+    |   Password icon
+    |----------------------------------------- */
+::-ms-reveal {
+    filter: invert(1);
+}
+
+/* -------------------------------------------
+    |   Form input file field
+    |----------------------------------------- */
+.input-file-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255);
+    border-radius: 50px;
+    color: #fff;
+    padding-right: 5px;
+}
+
+/* -------------------------------------------
+    |   Form input file Choose File button
+    |----------------------------------------- */
+.input-file-box input[type="file"]::-webkit-file-upload-button {
+    height: 100%;
+    background: rgb(59, 57, 57);
+    color: #fff;
+    border: 0;
+    padding: 0 5px 0 20px;
+}
+
+label {
+    font-size: 18px;
+    text-align: end !important;
+}
+
+/* -------------------------------------------
+    |   Select option field
+    |----------------------------------------- */
+select {
+    width: 100%;
+    height: 50px;
+    border: 2px solid rgba(255, 255, 255);
+    border-radius: 50px;
+    font-size: 18px;
+    color: #fff;
+    background: rgb(22, 21, 21);
+    padding: 10px 17px;
+}
+
+/* -------------------------------------------
+    |   Submit button styles
+    |----------------------------------------- */
+.wrapper .btn {
+    width: 50%;
+    height: 50px;
+    background: orangered;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: #333;
+    font-weight: 600;
+    color: white;
+    font-size: 18px;
+}
+
+.wrapper .btn:hover {
+    border: 2px solid white;
+    font-size: 19px;
+}
+
+/* -------------------------------------------
+    |   Login link styles
+    |----------------------------------------- */
+.wrapper .login-link {
+    font-size: 15px;
+    margin: 20px 0 10px;
+}
+
+.login-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-link p a:hover {
+    text-decoration: underline;
+}

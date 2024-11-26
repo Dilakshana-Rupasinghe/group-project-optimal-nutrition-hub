@@ -1,0 +1,78 @@
+/* ----------------------------------
+    |Table
+    |-------------------------------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.item-name {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #dbdada;
+    color: black;
+}
+
+/* ----------------------------------
+    |Action Button
+    |-------------------------------- */
+.action-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.view,
+.update,
+.deactivate {
+    padding: 8px 16px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.view {
+    background-color: #1316b1;
+
+}
+
+.view:hover {
+    background-color: #050663;
+}
+
+.update {
+    background-color: #4CAF50;
+}
+
+.update:hover {
+    background-color: #044206;
+}
+
+.deactivate {
+    background-color: #ff6b60;
+}
+
+.deactivate:hover {
+    background-color: rgb(138, 5, 5);
+}

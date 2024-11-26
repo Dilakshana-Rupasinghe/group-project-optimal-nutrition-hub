@@ -1,0 +1,87 @@
+/* ---------------------------------------
+    |   Search bar
+    |------------------------------------- */
+.search-bar {
+    border: 2px solid orangered;
+}
+
+/* ---------------------------------------
+    |   Product card
+    |------------------------------------- */
+.card-img-top {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    border-radius: 15%;
+    transition: transform 0.2s;
+}
+
+.card {
+    transition: background-color 0.2s;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.card:hover {
+    background-color: rgb(255, 226, 216) !important;
+    color: black;
+}
+
+.btn-view {
+    width: 80%;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid orangered;
+    color: orangered;
+}
+
+.product-name {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ---------------------------------------
+    |   tooltip for Product name
+    |------------------------------------- */
+.tool-tip {
+    position: relative;
+}
+
+.tool-tip-text {
+    position: absolute;
+    white-space: nowrap;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    z-index: 1;
+    background-color: #313131;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 4px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.tool-tip-text::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    border: 7px solid transparent;
+    border-top-color: #313131;
+}
+
+.tool-tip:hover .tool-tip-text {
+    top: -170%;
+    visibility: visible;
+    opacity: 1;
+}
